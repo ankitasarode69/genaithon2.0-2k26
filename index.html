@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAIthon 2.0 2k26 - Event Registration</title>
+    
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Vanta.js Background Container -->
+    <div id="vanta" style="background: linear-gradient(45deg, #e0e7ff, #f8fafc); transition: background 1s ease;"></div>
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🚀</span>
+                <span>GenAIthon 2.0 2k26 </span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#rules" class="nav-link">Rules</a></li>
+                <li><a href="#roadmap" class="nav-link">Roadmap</a></li>
+                <li><a href="#why" class="nav-link">Why Participate</a></li>
+                <li><a href="#register" class="nav-link register-link">Register</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+            <div class="hero-text">
+                <h1 class="hero-title">GenAIthon 2.0 2k26 </h1>
+                <p class="hero-tagline">Showcase your ideas, compete with innovators, and win exciting cash prizes.</p>
+                <button class="cta-button register-btn" id="registerBtn">Register Now</button>
+            </div>
+            <div class="hero-animation">
+                <div id="lottie-container"></div>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>About the Event</h2>
+                <div class="header-underline"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">💡</div>
+                    <h3>Creative Ideas</h3>
+                    <p>Bring your innovative ideas and compete with the brightest minds in technology and entrepreneurship.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">🎯</div>
+                    <h3>Real Competition</h3>
+                    <p>Face real challenges and get evaluated by industry experts and judges from leading tech companies.</p>
+                </div>
+                <div class="about-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-icon">🏆</div>
+                    <h3>Amazing Prizes</h3>
+                    <p>Win cash prizes, recognition, and networking opportunities with industry leaders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <!-- Vanta.js Background for Rounds Section -->
+        <div id="rounds-vanta" class="rounds-background"></div>
+        
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Event Roadmap</h2>
+                <div class="header-underline"></div>
+            </div>
+            <div class="Eligibility">
+                <li>Participation is open to individuals or teams(2-4 members)</li>
+                
+
+            </div>
+
+            <div class="timeline-container">
+                <!-- Round 1 -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">1</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">📝</div>
+                        <h3>Round 1: Idea Selection</h3>
+                        <p class="timeline-date">Until 19 March</p>
+                        <ul class="timeline-details">
+                            <li>Teams submit their PPT presentations</li>
+                            <li>Present your project idea clearly</li>
+                            <li>Judges review and select best teams</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Round 2 -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">2</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🎤</div>
+                        <h3>Round 2: Online Presentation</h3>
+                        <p class="timeline-date">30 March</p>
+                        <ul class="timeline-details">
+                            <li>Selected teams present ideas online</li>
+                            <li>Present in front of industry judges</li>
+                            <li>Top 10 teams shortlisted</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Round 3 -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">3</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🏢</div>
+                        <h3>Round 3: Final Round</h3>
+                        <p class="timeline-date">10 April (On Campus)</p>
+                        <ul class="timeline-details">
+                            <li>Final 10 teams present on campus</li>
+                            <li>Evaluated on innovation & feasibility</li>
+                            <li>Direct interaction with judges</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Final Results -->
+                <div class="timeline-item" data-aos="fade-right" data-aos-delay="400">
+                    <div class="timeline-marker">
+                        <span class="timeline-number">🏅</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🎉</div>
+                        <h3>Final Results</h3>
+                        <p class="timeline-date">Announcement Day</p>
+                        <ul class="timeline-details">
+                            <li>Top 3 teams declared winners</li>
+                            <li>Cash prizes & recognition</li>
+                            <li>Networking with industry leaders</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Participate Section -->
+    <section id="why" class="why-participate">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Why Participate?</h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="benefit-icon">💰</div>
+                    <h3>Cash Prizes</h3>
+                    <p>Compete for exciting cash prizes for innovative solutions.</p>
+                </div>
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="benefit-icon">🤝</div>
+                    <h3>Networking</h3>
+                    <p>Connect with industry experts and fellow innovators.</p>
+                </div>
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="benefit-icon">📈</div>
+                    <h3>Growth</h3>
+                    <p>Develop your skills and enhance your professional portfolio.</p>
+                </div>
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="benefit-icon">⭐</div>
+                    <h3>Recognition</h3>
+                    <p>Get recognized for your innovation and hard work.</p>
+                </div>
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="benefit-icon">🎓</div>
+                    <h3>Learning</h3>
+                    <p>Learn from experienced judges and industry professionals.</p>
+                </div>
+                <div class="benefit-card" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="benefit-icon">🚀</div>
+                    <h3>Launch Your Idea</h3>
+                    <p>Get support to turn your ideas into real projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="rules-section">
+        <div class="container">
+            <div class="rules-accordion">
+                <div class="accordion-header" data-aos="fade-up">
+                    <h2>Hackathon Rules</h2>
+                    <button class="accordion-toggle" id="rulesToggle">
+                        <span class="toggle-text">View Rules</span>
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <div class="accordion-content" id="rulesContent">
+                    <div class="rules-list">
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="rule-number">1</div>
+                            <div class="rule-text">Each team must have 1–4 members.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="150">
+                            <div class="rule-number">2</div>
+                            <div class="rule-text">Teams must register before the deadline using the registration form.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="rule-number">3</div>
+                            <div class="rule-text">Each team must submit a PPT of their project idea before 16 March for Round 1 selection.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="250">
+                            <div class="rule-number">4</div>
+                            <div class="rule-text">The Round 2 presentation will be held online on 29 March in front of judges.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="300">
+                            <div class="rule-number">5</div>
+                            <div class="rule-text">Only 10 teams will be shortlisted for the final round.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="350">
+                            <div class="rule-number">6</div>
+                            <div class="rule-text">The final round will be held on campus on 11 April.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="rule-number">7</div>
+                            <div class="rule-text">Teams must bring their own laptops and required software/tools.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="450">
+                            <div class="rule-number">8</div>
+                            <div class="rule-text">All projects must be original and innovative.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="500">
+                            <div class="rule-number">9</div>
+                            <div class="rule-text">Judges' decisions will be final and binding.</div>
+                        </div>
+                        <div class="rule-item" data-aos="fade-up" data-aos-delay="550">
+                            <div class="rule-number">10</div>
+                            <div class="rule-text">The top 3 teams will receive exciting cash prizes and certificates.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="register" class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Showcase Your Innovation?</h2>
+                <p>Join hundreds of innovators and compete for amazing prizes!</p>
+                <button class="cta-button large-btn" id="registerBtn2">Register Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-aos="fade-up">
+                    <h4>GenAIthon 2.0 2k26 </h4>
+                    <p>Empowering innovators to build the future</p>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#rules">Rules</a></li>
+                        <li><a href="#roadmap">Roadmap</a></li>
+                        <li><a href="#why">Why Participate</a></li>
+                        <li><a href="#register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Contact Us</h4>
+                    <p>Email: matoshriacmevent26@gmail.com</p>
+                    <p>Phone:Aditya Patil +91 7020497427</p>
+                    <p>phone:Ajit Pagar +91 8010896232</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Innovation Hackathon. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    
+    <!-- AOS (Animate On Scroll) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Lottie -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.8/lottie.min.js"></script>
+    
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <!-- Vanta.js Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.fog.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.ribbons.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
